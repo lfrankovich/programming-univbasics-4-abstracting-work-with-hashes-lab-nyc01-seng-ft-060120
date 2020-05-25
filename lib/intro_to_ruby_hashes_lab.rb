@@ -18,8 +18,3 @@ def update_counting_hash(hash, key)
     puts 
 end
 
-	if shipping_manifest["top hat"]
-	shipping_manifest["top hat"] += 1
-	else
-	puts "Key not found!"
-end
