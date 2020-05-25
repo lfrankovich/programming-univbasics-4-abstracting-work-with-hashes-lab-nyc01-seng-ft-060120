@@ -15,9 +15,3 @@ def update_counting_hash(hash, key)
   if hash[key]
     hash[key] += 1
 end
-
-	if shipping_manifest["top hat"]
-	shipping_manifest["top hat"] += 1
-	else
-	puts "Key not found!"
-end
