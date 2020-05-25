@@ -5,8 +5,12 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash[:key]
+  hash[key: ]
 end
+
+
+read_from_hash{name: 'Steve'}, :name)).to eq('Steve')
+      expect(read_from_hash({'name' => 'Tzvi'}, 'name')).to eq('Tzvi')
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
